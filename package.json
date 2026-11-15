@@ -1,0 +1,13 @@
+{
+  "name": "amethyst-private-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static checks for the single-file Luau private-server client",
+  "scripts": {
+    "build": "python3 tools/build_private.py",
+    "check": "python3 tools/check_bundle.py && node tools/check_luau.cjs"
+  },
+  "devDependencies": {
+    "luau-parser": "1.1.0"
+  }
+}
