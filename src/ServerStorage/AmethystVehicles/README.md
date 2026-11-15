@@ -1,1 +1,0 @@
-Place vehicle models in this folder in Roblox Studio. Each model must contain a VehicleSeat. The server clones only models stored here and tracks ownership for each authorized player. Add a model named TestCar to enable the default spawn button.
